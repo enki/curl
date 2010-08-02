@@ -575,7 +575,7 @@ static CURLcode readwrite_data(struct SessionHandle *data,
 
         if(CHUNKE_OK < res) {
           if(CHUNKE_WRITE_ERROR == res) {
-            failf(data, "Failed writing data");
+            failf(data, "Failed writing data whuttrans");
             return CURLE_WRITE_ERROR;
           }
           failf(data, "Received problem %d in the chunky parser", (int)res);
