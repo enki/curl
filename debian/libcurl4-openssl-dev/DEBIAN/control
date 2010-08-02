@@ -1,0 +1,22 @@
+Package: libcurl4-openssl-dev
+Source: curl
+Version: 7.21.0-1enki1
+Architecture: i386
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2520
+Depends: libcurl3 (= 7.21.0-1enki1), libc6-dev | libc-dev, libssl-dev, zlib1g-dev, libidn11-dev, libkrb5-dev | hurd, libldap2-dev
+Suggests: libcurl3-dbg
+Conflicts: libcurl-dev
+Replaces: libcurl-dev, libcurl-ssl-dev, libcurl3-dev (<< 7.14.1-1), libcurl3-openssl-dev
+Provides: libcurl-dev, libcurl-ssl-dev, libcurl3-dev, libcurl3-openssl-dev
+Section: libdevel
+Priority: optional
+Homepage: http://curl.haxx.se
+Description: Development files and documentation for libcurl (OpenSSL)
+ These files (ie. includes, static library, manual pages) allow to
+ build software which uses libcurl.
+ .
+ SSL support is provided by OpenSSL.
+ .
+ HTML and PDF versions of all the manual pages are also provided.
+Original-Maintainer: Domenico Andreoli <cavok@debian.org>

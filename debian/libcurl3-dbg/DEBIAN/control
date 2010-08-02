@@ -1,0 +1,18 @@
+Package: libcurl3-dbg
+Source: curl
+Version: 7.21.0-1enki1
+Architecture: i386
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 232
+Depends: libcurl3 (= 7.21.0-1enki1) | libcurl3-gnutls (= 7.21.0-1enki1)
+Suggests: libc-dbg
+Conflicts: libcurl4-dbg
+Replaces: libcurl4-dbg
+Provides: libcurl4-dbg
+Section: debug
+Priority: extra
+Homepage: http://curl.haxx.se
+Description: libcurl compiled with debug symbols
+ This contains the debug symbols of both the OpenSSL and GnuTLS versions of
+ libcurl3. It might be useful in debug sessions of software which uses libcurl.
+Original-Maintainer: Domenico Andreoli <cavok@debian.org>

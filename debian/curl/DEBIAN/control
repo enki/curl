@@ -1,0 +1,19 @@
+Package: curl
+Version: 7.21.0-1enki1
+Architecture: i386
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 340
+Depends: libc6 (>= 2.7), libcurl3 (>= 7.16.2-1), zlib1g (>= 1:1.1.4)
+Replaces: curl-ssl
+Provides: curl-ssl
+Section: web
+Priority: optional
+Homepage: http://curl.haxx.se
+Description: Get a file from an HTTP, HTTPS or FTP server
+ curl is a client to get files from servers using any of the supported
+ protocols. The command is designed to work without user interaction
+ or any kind of interactivity.
+ .
+ curl offers a busload of useful tricks like proxy support, user
+ authentication, ftp upload, HTTP post, file transfer resume and more.
+Original-Maintainer: Domenico Andreoli <cavok@debian.org>

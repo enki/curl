@@ -1,0 +1,6 @@
+curl_7.21.0-1enki1_i386.deb web optional
+libcurl3_7.21.0-1enki1_i386.deb libs optional
+libcurl3-gnutls_7.21.0-1enki1_i386.deb libs optional
+libcurl4-openssl-dev_7.21.0-1enki1_i386.deb libdevel optional
+libcurl4-gnutls-dev_7.21.0-1enki1_i386.deb libdevel optional
+libcurl3-dbg_7.21.0-1enki1_i386.deb debug extra

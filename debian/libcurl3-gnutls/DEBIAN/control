@@ -1,0 +1,20 @@
+Package: libcurl3-gnutls
+Source: curl
+Version: 7.21.0-1enki1
+Architecture: i386
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 480
+Depends: libc6 (>= 2.11), libcomerr2 (>= 1.01), libgcrypt11 (>= 1.4.2), libgnutls26 (>= 2.7.14-0), libgssapi-krb5-2 (>= 1.7+dfsg), libidn11 (>= 1.13), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), zlib1g (>= 1:1.1.4), ca-certificates
+Conflicts: libcurl4-gnutls
+Replaces: libcurl4-gnutls
+Section: libs
+Priority: optional
+Homepage: http://curl.haxx.se
+Description: Multi-protocol file transfer library (GnuTLS)
+ libcurl is designed to be a solid, usable, reliable and portable
+ multi-protocol file transfer library.
+ .
+ SSL support is provided by GnuTLS.
+ .
+ This is the shared version of libcurl.
+Original-Maintainer: Domenico Andreoli <cavok@debian.org>
